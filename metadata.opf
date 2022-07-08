@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">9ab7bc9e-c648-408c-83d2-b5b80aeca383</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">9ab7bc9e-c648-408c-83d2-b5b80aeca383</dc:identifier>
+        <dc:title>Manual do professor para a Educação Física - 6. ano</dc:title>
+        <dc:creator opf:file-as="Diego Berton, Roselise Stallivieri" opf:role="aut">Diego Berton, Roselise Stallivieri</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (5.43.0) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2022-05-17T20:49:13+00:00</dc:date>
+        <dc:publisher>Terra Sul</dc:publisher>
+        <dc:language>pt</dc:language>
+        <meta name="calibre:author_link_map" content="{}" />
+    </metadata>
+
+    <manifest>
+        <item id="chapter1" href="index.html" media-type="application/xhtml+xml"/>
+        <item id="chapter2" href="part2-0-brincadeiras.html" media-type="application/xhtml+xml"/>
+        <item id="chapter3" href="part2-1-esportes.html" media-type="application/xhtml+xml"/>
+        <item id="chapter4" href="part2-2-ginasticas.html" media-type="application/xhtml+xml"/>
+        <item id="chapter5" href="part2-3-dancas.html" media-type="application/xhtml+xml"/>
+        <item id="chapter6" href="part2-4-lutas.html" media-type="application/xhtml+xml"/>
+        <item id="chapter7" href="part2-5-aventuras.html" media-type="application/xhtml+xml"/>
+        <item id="chapter8" href="part2-6-avaliacao.html" media-type="application/xhtml+xml"/>
+        <item id="stylesheet" href="styles/style.css" media-type="text/css"/>
+        <item id="myfont" href="fonts/AvenirLTStd45Book.otf" media-type="application/x-font-opentype"/>
+        <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    </manifest>
+
+    <spine toc="ncx">
+        <itemref idref="chapter1" />
+        <itemref idref="chapter2" />
+        <itemref idref="chapter3" />
+        <itemref idref="chapter4" />
+        <itemref idref="chapter5" />
+        <itemref idref="chapter6" />
+        <itemref idref="chapter7" />
+        <itemref idref="chapter8" />
+    </spine>
+
+    <guide>
+        <reference type="cover" title="Capa" href="cover.jpg" />
+    </guide>
+</package>

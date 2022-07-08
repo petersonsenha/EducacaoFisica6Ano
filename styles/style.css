@@ -1,0 +1,257 @@
+@page {
+  margin-bottom: 5pt;
+  margin-top: 5pt;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+@font-face {
+  font-family: AvenirLTStd45Book;
+  src: url("AvenirLTStd45Book.otf");
+}
+
+html,
+body {
+  display: block;
+  font-size: 1em;
+  margin: 0;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+  font-family: "AvenirLTStd45Book";
+  position: relative !important;
+}
+
+@media print {
+  .page {
+    height: auto;
+    border-bottom: 0;
+  }
+}
+
+.title--blue {
+  color: #4a91c5;
+}
+
+.title--brown {
+  color: #7e432d;
+}
+
+.title--brown--gradient {
+  border-top: #da5138 1px solid;
+  background: rgb(107, 166, 205);
+  background: linear-gradient(180deg,
+      rgba(107, 166, 205, 1) 0%,
+      rgba(255, 255, 255, 1) 100%);
+  color: #7e432d;
+}
+
+.page {
+  min-height: 100vh;
+  border-bottom: 1px solid black;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.cover-background--blue {
+  background-color: #acd5e8;
+}
+
+.background--blue {
+  border-radius: 5px;
+  background-color: #dee3dc;
+}
+
+.background--yellow {
+  background-color: #fef7d4;
+}
+
+.background--salmon {
+  background-color: #f8d6c7;
+}
+
+.center-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.box {
+  margin: 0 160px;
+  padding: 16px;
+  border: 1px solid black;
+}
+
+.box--yellow {
+  padding: 16px;
+  border: 1px solid yellow;
+}
+
+.two-blocks-right {
+  display: grid;
+  grid-template-columns: 1fr minmax(150px, 15%);
+}
+
+.two-blocks-left {
+  display: grid;
+  grid-template-columns: minmax(250px, 25%) 1fr;
+}
+
+.justify {
+  text-align: justify;
+  text-justify: inter-word;
+  margin: 10rem;
+}
+
+.padding1 {
+  padding: 16px;
+}
+
+.margin1 {
+  margin: 0 1rem;
+}
+
+
+.calibre1 {
+  display: block;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 1em;
+}
+
+.calibre2 {
+  height: auto;
+  width: auto;
+  display: block;
+  max-width: 100%;
+}
+
+.image-responsive {
+  width: 100%;
+  height: auto;
+
+}
+
+.calibre3 {
+  font-weight: bold;
+}
+
+.calibre4 {
+  display: block;
+  font-size: 1.66667em;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0.83em;
+  page-break-before: always;
+}
+
+.calibre5 {
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.italico {
+  font-style: italic;
+}
+
+.calibre7 {
+  text-align: center;
+  text-align-last: center;
+}
+
+.calibre8 {
+  text-align: left;
+}
+
+.calibre9 {
+  background-color: #4a91c5;
+  shape-margin: 5%;
+  border-radius: 5%;
+}
+
+.respostas {
+  color: darkviolet;
+}
+
+.paginacao {
+  text-align: right;
+  page-break-before: auto;
+}
+
+.titulocaixa {
+  display: block;
+  font-size: 1.29167em;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 1em;
+}
+
+.blocoreferencia {
+  background-color: #4a91c5;
+  text-align: right;
+  padding-right: 0%;
+  margin-left: 75px;
+  margin-right: 0px;
+}
+
+.horizontal {
+  writing-mode: vertical-rl;
+  text-align: center;
+  font-size: 80%;
+}
+
+.imagemparalela {
+  min-width: 80%;
+  height: auto;
+}
+
+.referenciaparalela {
+  text-align: center;
+  color: #7e432d;
+}
+
+.paralelo {
+  display: flex;
+  /* min-width: 80%; */
+  margin: auto;
+}
+
+.blocoleituracomplementar {
+  background-color: #4a91c5;
+  border-radius: 1%;
+}
+
+.tituloleituracomplemental {
+  color: #4a91c5;
+}
+
+.barralateral {
+  text-align: right;
+  width: 30rem;
+  background-color: #acd5e8;
+}
+
+.blocoorganizando {
+  background-color: #f8d6c7;
+  border-color: yellow;
+}
