@@ -264,3 +264,14 @@ body {
   background-color: #f8d6c7;
   border-color: yellow;
 }
+.grid2,
+.grid3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+}
+.d-flex {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
