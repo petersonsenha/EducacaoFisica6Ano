@@ -245,6 +245,11 @@ body {
   margin: auto;
 }
 
+.par{
+  text-indent: 1.5em;
+  margin-left: 1.5em;
+}
+
 .blocoleituracomplementar {
   background-color: #4a91c5;
   border-radius: 1%;
